@@ -1,1 +1,1 @@
-All the codes are Julia codes. We will update the codes later. 
+All code in this repository is written in Julia. We will update them later.
