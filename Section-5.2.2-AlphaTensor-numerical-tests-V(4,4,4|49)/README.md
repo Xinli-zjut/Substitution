@@ -97,10 +97,10 @@ For the eight-dimensional family, the final verification first substitutes
 | File | Purpose |
 |---|---|
 | `s526.ipynb` | Original AlphaTensor solution |
-| `Ts.ipynb` | Construction of the known tangent directions |
-| `Ts.jls` | Serialized tangent-direction matrix |
+| `Ts.ipynb` | Construction of the known tangent space |
+| `Ts.jls` | Serialized tangent basis matrix |
 | `Ns.ipynb` | Jacobian and nullspace computation |
-| `Ns.jls` | Serialized nullspace data |
+| `Ns.jls` | Serialized nullspace basis matrix |
 | `Findgap.ipynb` | Randomized search for suitable sets $I$ and $S$ |
 | `Igap1_size2344.txt`, `Sgap1_size8.txt` | the index set and its complement |
 | `Igap10_size2269.txt`, `Sgap10_size83.txt` | the index set and its complement |
@@ -111,7 +111,7 @@ For the eight-dimensional family, the final verification first substitutes
 | `s526_rankgap1_t.ipynb` | Explicit one-parameter family |
 | `s526_rankgap10_t.ipynb` | Explicit eight-dimensional family represented by nine symbols and one relation |
 
-## Important notes
+## Some notes
 
 - A rank gap is a statement about first-order linearized data; it is not automatically the dimension of the nonlinear family obtained after solving the reduced system.
 - The passage from a Gröbner basis to explicit parameter formulas includes component selection, free-parameter selection, and nonzero-denominator conditions. These steps are not fully automated in the present notebooks.
