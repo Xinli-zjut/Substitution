@@ -94,7 +94,7 @@ Invariant_LRPt.ipynb
 | `Ns-LRP.ipynb` | Jacobian and nullspace computation |
 | `Ns.jls` | Serialized nullspace data |
 | `Findgap.ipynb` | Randomized search for suitable sets $I$ and $S$ |
-| `I_LRPt.txt`, `S_LRPt.txt` | Selected complementary coordinate sets |
+| `I_LRPt.txt`, `S_LRPt.txt` | the index set and its complement |
 | `rankgapcomp.ipynb` | Rank-gap verification |
 | `StoXYZOscar.ipynb` | Conversion from row indices to Brent-variable names |
 | `vars_S_LRPt.txt` | Variables that remain symbolic after substitution |
