@@ -102,8 +102,8 @@ For the eight-dimensional family, the final verification first substitutes
 | `Ns.ipynb` | Jacobian and nullspace computation |
 | `Ns.jls` | Serialized nullspace data |
 | `Findgap.ipynb` | Randomized search for suitable sets $I$ and $S$ |
-| `Igap1_size2344.txt`, `Sgap1_size8.txt` | Coordinate selection for the one-parameter branch |
-| `Igap10_size2269.txt`, `Sgap10_size83.txt` | Coordinate selection for the rank-gap-10 branch |
+| `Igap1_size2344.txt`, `Sgap1_size8.txt` | the index set and its complement |
+| `Igap10_size2269.txt`, `Sgap10_size83.txt` | the index set and its complement |
 | `rankgapcomp.ipynb` | Rank-gap verification |
 | `StoXYZ_Oscar.ipynb` | Conversion from row indices to Brent-variable names |
 | `Subsystemgen_Oscar.ipynb` | Construction and decomposition of a reduced Brent system |
