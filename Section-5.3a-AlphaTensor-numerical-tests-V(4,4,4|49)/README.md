@@ -22,8 +22,8 @@ The coordinate counts are 2352 in total: `|I|+|S|=2352` in both branches.
 | file | role |
 |---|---|
 | `s721.ipynb` | exact AlphaTensor decomposition `(U_k,V_k,W_k)`, `k=1,...,49` |
-| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent space|
-| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis |
+| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent basis matrix|
+| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis matrix |
 | `Findgap.ipynb` | modular randomized search for `I`, `S`, and a prescribed rank gap |
 | `I2330_gap2.txt`, `S22_gap2.txt` | the index set and its complement  |
 | `I2168_gap16.txt`, `S184_gap16.txt` | the index set and its complement|
