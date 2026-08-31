@@ -88,9 +88,9 @@ Invariant_LRPt.ipynb
 
 | File | Purpose |
 |---|---|
-| `LRP.ipynb` | Original DPS rank-48 decomposition |
-| `Ts-LRP.ipynb` | Construction of the known tangent directions |
-| `Ts.jls` | Serialized tangent-direction matrix |
+| `LRP.ipynb` | Original DPS rank-48 solution |
+| `Ts-LRP.ipynb` | Construction of the known tangent space |
+| `Ts.jls` | Serialized tangent basis matrix |
 | `Ns-LRP.ipynb` | Jacobian and nullspace computation |
 | `Ns.jls` | Serialized nullspace data |
 | `Findgap.ipynb` | Randomized search for suitable sets $I$ and $S$ |
@@ -104,9 +104,7 @@ Invariant_LRPt.ipynb
 | `LRP_t.ipynb` | Explicit one-parameter solution family and tensor verification |
 | `Invariant_LRPt.ipynb` | Invariant computations for the family |
 
-## Important notes
+## Some notes
 
-- The **rank gap is first-order linear information** obtained from the Jacobian and the known group tangent directions. It should not automatically be identified with the dimension of the final nonlinear solution family.
 - The passage from the Gröbner basis to the final parameter formulas includes component selection, the choice of free parameters, and nonzero-denominator conditions. These steps are not fully automated in the present notebooks.
-- Run the notebooks from this directory so that relative file paths and `@nbinclude` statements resolve correctly.
-- Several notebooks create or overwrite `.jls`, `.jl`, or `.txt` files. Keep a copy of the precomputed files before rerunning the complete workflow.
+
