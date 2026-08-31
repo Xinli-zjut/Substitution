@@ -18,8 +18,8 @@ The coordinate counts are 621 in total: `|I|+|S|=621` in both branches.
 | file | role |
 |---|---|
 | `s722.ipynb` | exact Smirnov decomposition `(U_k,V_k,W_k)`, `k=1,...,23` |
-| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent directions |
-| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis |
+| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent basis matrix |
+| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis matrix|
 | `Findgap.ipynb` | modular randomized search for `I`, `S`, and a prescribed rank gap |
 | `I603_gap2.txt`, `S18_gap2.txt` | the index set and its complement |
 | `I550_gap15.txt`, `S71_gap15.txt` | the index set and its complement |
