@@ -23,8 +23,8 @@ The notebooks were saved with **Julia 1.12.6** and the `Julia 1.12` Jupyter kern
 | file | role |
 |---|---|
 | `lad.ipynb` | exact Laderman decomposition `(U_k,V_k,W_k)`, `k=1,...,23` |
-| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent directions |
-| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis |
+| `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent basis matrix |
+| `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis matrix |
 | `Findgap.ipynb` | modular randomized search for `I`, `S`, and a prescribed rank gap |
 | `Igap1_size613.txt`, `Sgap1_size8.txt` | the index set and its complement |
 | `Igap6_size574.txt`, `Sgap6_size47.txt` | the index set and its complement |
