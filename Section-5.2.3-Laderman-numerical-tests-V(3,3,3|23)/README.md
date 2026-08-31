@@ -26,8 +26,8 @@ The notebooks were saved with **Julia 1.12.6** and the `Julia 1.12` Jupyter kern
 | `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent directions |
 | `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis |
 | `Findgap.ipynb` | modular randomized search for `I`, `S`, and a prescribed rank gap |
-| `Igap1_size613.txt`, `Sgap1_size8.txt` | supplied small branch |
-| `Igap6_size574.txt`, `Sgap6_size47.txt` | supplied large branch |
+| `Igap1_size613.txt`, `Sgap1_size8.txt` | the index set and its complement |
+| `Igap6_size574.txt`, `Sgap6_size47.txt` | the index set and its complement |
 | `rankgapcomp.ipynb` | verify a supplied or newly generated `I` file |
 | `StoXYZ_Oscar.ipynb` | convert row indices in `S` to `x[i,j,k]`, `y[i,j,k]`, `z[i,j,k]` and generate an Oscar variable file |
 | `Subsystemgen_Oscar.ipynb` | substitute fixed coordinates, simplify the Brent system, split it into independent subsystems, and export them |
