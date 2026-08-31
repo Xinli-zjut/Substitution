@@ -11,7 +11,7 @@ Two precomputed coordinate selections are provided.
 | Branch | Fixed-coordinate set | Symbolic-coordinate set | Final family |
 |---|---|---|---|
 | Rank gap 1 | `Igap1_size2344.txt`, $\lvert I\rvert=2344$ | `Sgap1_size8.txt`, $\lvert S\rvert=8$ | One-parameter family in [`s526_rankgap1_t.ipynb`](s526_rankgap1_t.ipynb) |
-| Rank gap 10 | `Igap10_size2269.txt`, $\lvert I\rvert=2269$ | `Sgap10_size83.txt`, $\lvert S\rvert=83$ | Eight-dimensional family in [`s526_rankgap10_t.ipynb`](s526_rankgap10_t.ipynb) |
+| Rank gap 10 | `Igap10_size2269.txt`, $\lvert I \rvert=2269$ | `Sgap10_size83.txt`, $\lvert S\rvert=83$ | Eight-dimensional family in [`s526_rankgap10_t.ipynb`](s526_rankgap10_t.ipynb) |
 
 
 
