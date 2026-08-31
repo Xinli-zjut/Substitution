@@ -25,8 +25,8 @@ The coordinate counts are 2352 in total: `|I|+|S|=2352` in both branches.
 | `Ts.ipynb`, `Ts.jls` | construct/store the known de Groote and layer-scaling tangent space|
 | `Ns.ipynb`, `Ns.jls` | construct the Brent Jacobian and store an exact nullspace basis |
 | `Findgap.ipynb` | modular randomized search for `I`, `S`, and a prescribed rank gap |
-| `I2330_gap2.txt`, `S22_gap2.txt` | the index set  |
-| `I2168_gap16.txt`, `S184_gap16.txt` | the index set |
+| `I2330_gap2.txt`, `S22_gap2.txt` | the index set and its complement  |
+| `I2168_gap16.txt`, `S184_gap16.txt` | the index set and its complement|
 | `rankgapcomp.ipynb` | verify a supplied or newly generated `I` file |
 | `StoXYZ_Oscar.ipynb` | convert row indices in `S` to Oscar variables |
 | `Subsystemgen_Oscar.ipynb` | generate, simplify, split, and export reduced Brent subsystems |
