@@ -2,7 +2,7 @@
 
 This directory contains the Julia code used for the numerical tests reported in Section 5.2.1 of the paper. The solution belongs to $\mathcal{V}(4,4,4\mid 48)$. It was found by Dumas, Pernet, and Sedoglavic.
 
-The main computational objective is to fix a large set of coordinates, construct the resulting reduced Brent system, compute its Gröbner basis, and obtain a parameterized solution family through the DPS solution.
+The main computational objective is to fix a large set of fixed partial solution, construct the resulting reduced Brent system, compute its Gröbner basis, and obtain a parameterized solution family through the DPS solution.
 
 ## Main results stored in this directory
 
