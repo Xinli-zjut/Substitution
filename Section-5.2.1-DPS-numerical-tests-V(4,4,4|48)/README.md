@@ -92,7 +92,7 @@ Invariant_LRPt.ipynb
 | `Ts-LRP.ipynb` | Construction of the known tangent space |
 | `Ts.jls` | Serialized tangent basis matrix |
 | `Ns-LRP.ipynb` | Jacobian and nullspace computation |
-| `Ns.jls` | Serialized nullspace data |
+| `Ns.jls` | Serialized nullspace basis matrix |
 | `Findgap.ipynb` | Randomized search for suitable sets $I$ and $S$ |
 | `I_LRPt.txt`, `S_LRPt.txt` | the index set and its complement |
 | `rankgapcomp.ipynb` | Rank-gap verification |
